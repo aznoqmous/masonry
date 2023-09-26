@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.container {
+    columns: 3;
+    gap: 2rem;
+    .block {
+        border: 1px solid black;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .container {
+        columns: 2;
+        gap: 1rem;
+    }
+}
